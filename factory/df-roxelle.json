@@ -1,0 +1,9 @@
+{
+	"name": "df-roxelle",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0ae59867-3a32-439e-be70-b91623872ac4",
+		"tenantId": "a49e2ad8-3b8d-40e8-8c45-1505c9a243d3"
+	}
+}
