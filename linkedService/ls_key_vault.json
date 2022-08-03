@@ -1,0 +1,10 @@
+{
+	"name": "ls_key_vault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-beca-roxelle.vault.azure.net/"
+		}
+	}
+}
