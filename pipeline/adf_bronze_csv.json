@@ -49,7 +49,21 @@
 						"value": "@activity('Lookup1').output.value",
 						"type": "Expression"
 					},
-					"batchCount": 5
+					"batchCount": 5,
+					"activities": [
+						{
+							"name": "If Condition1",
+							"type": "IfCondition",
+							"dependsOn": [],
+							"userProperties": [],
+							"typeProperties": {
+								"expression": {
+									"value": "@equals(item().statusProcess,'1')",
+									"type": "Expression"
+								}
+							}
+						}
+					]
 				}
 			}
 		],
