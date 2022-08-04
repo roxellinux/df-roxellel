@@ -5,6 +5,17 @@
 			"referenceName": "ls_datalake_beca",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Conteiner": {
+				"type": "string"
+			},
+			"Filename": {
+				"type": "string"
+			},
+			"Folder": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
